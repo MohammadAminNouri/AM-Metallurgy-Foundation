@@ -1,0 +1,13 @@
+sample_id,source_doi,alloy,AM_process,AM_subprocess,machine,laser_power_W,scan_speed_mm_s,hatch_spacing_um,layer_thickness_um,beam_diameter_um,build_orientation,specimen_orientation,heat_treatment,relative_density_percent,porosity_percent,grain_size_um,grain_morphology,texture_intensity_MRD,matrix_phase,secondary_phases,yield_strength_MPa,UTS_MPa,elongation_percent,hardness_HV,elastic_modulus_GPa,surface_roughness_Ra_um
+ex001,demo,316L,PBF,L-PBF,EOS M290,195,800,100,30,80,vertical,vertical,as-built,99.2,0.8,35,columnar,4.2,austenite,none,520,640,35,210,190,12
+ex002,demo,316L,PBF,L-PBF,SLM 280,220,900,90,30,80,horizontal,horizontal,stress relieved,99.5,0.5,28,columnar,3.8,austenite,none,560,680,38,215,192,10
+ex003,demo,Ti6Al4V,PBF,L-PBF,EOS M290,280,1200,100,30,70,vertical,vertical,as-built,99.0,1.0,15,martensitic,6.0,alpha_prime,beta,930,1050,10,350,115,16
+ex004,demo,Ti6Al4V,PBF,L-PBF,Renishaw AM250,300,1100,100,30,70,horizontal,horizontal,annealed,99.3,0.7,20,bimodal,4.7,alpha_beta,beta,870,980,14,330,112,14
+ex005,demo,IN718,PBF,L-PBF,Concept Laser M2,285,960,110,40,90,vertical,vertical,as-built,99.1,0.9,22,columnar,5.5,gamma,Laves,760,1050,20,380,200,18
+ex006,demo,IN718,PBF,L-PBF,EOS M290,285,960,110,40,90,horizontal,horizontal,aged,99.6,0.4,18,columnar,5.0,gamma,gamma_prime;gamma_double_prime,1100,1350,15,450,205,12
+ex007,demo,AlSi10Mg,PBF,L-PBF,SLM 280,370,1300,170,30,90,vertical,vertical,as-built,98.8,1.2,12,cellular,2.2,alpha_Al,Si_network,250,410,6,125,72,20
+ex008,demo,AlSi10Mg,PBF,L-PBF,EOS M290,350,1200,170,30,90,horizontal,horizontal,aged,99.4,0.6,10,cellular,2.0,alpha_Al,Si_particles;Mg2Si,310,450,8,145,74,14
+ex009,demo,CuCrZr,PBF,L-PBF,Trumpf TruPrint,500,600,80,30,100,vertical,vertical,as-built,97.5,2.5,45,equiaxed,1.5,Cu,Cr_Zr_precipitates,220,320,22,105,120,25
+ex010,demo,CuCrZr,PBF,L-PBF,Trumpf TruPrint,520,650,80,30,100,horizontal,horizontal,aged,98.5,1.5,38,equiaxed,1.4,Cu,Cr_Zr_precipitates,340,450,18,135,125,20
+ex011,demo,CoCrMo,PBF,L-PBF,EOS M290,180,750,100,30,80,vertical,vertical,as-built,99.2,0.8,25,columnar,4.5,gamma,carbides,700,1000,12,420,210,11
+ex012,demo,Maraging steel M300,PBF,L-PBF,EOS M290,285,960,110,40,90,horizontal,horizontal,aged,99.7,0.3,18,martensitic,3.5,martensite,Ni3Ti_precipitates,1900,2050,6,560,180,9
