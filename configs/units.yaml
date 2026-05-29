@@ -1,0 +1,12 @@
+length:
+  um_to_mm: 0.001
+  micrometer_to_mm: 0.001
+  m_to_mm: 1000
+strength:
+  GPa_to_MPa: 1000
+  Pa_to_MPa: 0.000001
+power:
+  kW_to_W: 1000
+speed:
+  m_per_s_to_mm_per_s: 1000
+  mm_per_min_to_mm_per_s: 0.0166666667

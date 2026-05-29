@@ -1,0 +1,20 @@
+L-PBF:
+  - SLM
+  - DMLS
+  - DMLM
+  - LMF
+  - LPBF
+  - laser powder bed fusion
+E-PBF:
+  - EBM
+  - electron beam melting
+L-DED:
+  - LENS
+  - LMD
+  - DLD
+  - DMP
+  - laser metal deposition
+  - laser directed energy deposition
+WAAM:
+  - wire arc additive manufacturing
+  - arc-DED

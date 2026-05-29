@@ -1,0 +1,15 @@
+column,required,type,unit,description
+sample_id,yes,string,,Links to process-property row
+source_doi,no,string,,Paper DOI or user source ID
+EBSD_available,no,string,,yes/no
+texture_component,no,string,,cube goss brass copper fiber_001 fiber_111 etc
+texture_intensity_MRD,no,float,MRD,Maximum texture intensity
+HAGB_fraction,no,float,%,High-angle grain-boundary fraction
+LAGB_fraction,no,float,%,Low-angle grain-boundary fraction
+KAM_mean,no,float,degree,Kernel average misorientation
+GOS_mean,no,float,degree,Grain orientation spread
+misorientation_mean_deg,no,float,degree,Mean misorientation
+Schmid_factor_mean,no,float,,Mean Schmid factor
+Taylor_factor_mean,no,float,,Mean Taylor factor
+crystallography_notes,no,string,,Free text notes
+quality_score,no,string,,A B C D E

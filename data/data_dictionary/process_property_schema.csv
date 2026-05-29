@@ -1,0 +1,25 @@
+column,required,type,unit,description
+sample_id,yes,string,,Unique sample identifier
+source_doi,no,string,,Paper DOI or user source ID
+alloy,yes,string,,Alloy or material name
+AM_process,yes,string,,PBF DED WAAM binder jet etc
+AM_subprocess,no,string,,L-PBF E-PBF L-DED WAAM etc
+machine,no,string,,AM machine name
+laser_power_W,no,float,W,Laser/beam power
+scan_speed_mm_s,no,float,mm/s,Scan speed
+hatch_spacing_um,no,float,um,Hatch spacing
+layer_thickness_um,no,float,um,Layer thickness
+beam_diameter_um,no,float,um,Beam diameter
+build_orientation,no,string,,Build orientation
+specimen_orientation,no,string,,Mechanical test specimen orientation
+heat_treatment,no,string,,As-built HIP aged annealed etc
+relative_density_percent,no,float,%,Relative density
+porosity_percent,no,float,%,Porosity fraction
+microstructure_id,no,string,,Foreign key to microstructure table
+phase_id,no,string,,Foreign key to phase table
+yield_strength_MPa,no,float,MPa,Yield strength label
+UTS_MPa,no,float,MPa,Ultimate tensile strength label
+elongation_percent,no,float,%,Elongation label
+hardness_HV,no,float,HV,Vickers hardness label
+elastic_modulus_GPa,no,float,GPa,Elastic modulus label
+surface_roughness_Ra_um,no,float,um,Surface roughness label

@@ -1,0 +1,18 @@
+column,required,type,unit,description
+sample_id,yes,string,,Links to process-property row
+source_doi,no,string,,Paper DOI or user source ID
+phase_measurement_method,no,string,,XRD EBSD TEM CALPHAD paper_text
+matrix_phase,no,string,,Main matrix phase
+secondary_phases,no,string,,Comma-separated secondary phases
+martensite_fraction,no,float,%,Martensite fraction
+austenite_fraction,no,float,%,Austenite fraction
+ferrite_fraction,no,float,%,Ferrite fraction
+alpha_fraction,no,float,%,Alpha phase fraction
+beta_fraction,no,float,%,Beta phase fraction
+gamma_prime_fraction,no,float,%,Gamma prime fraction
+gamma_double_prime_fraction,no,float,%,Gamma double prime fraction
+Laves_phase_presence,no,string,,yes/no/unknown
+carbide_presence,no,string,,yes/no/unknown
+precipitate_phase,no,string,,Precipitate phase name
+phase_notes,no,string,,Free text notes
+quality_score,no,string,,A B C D E

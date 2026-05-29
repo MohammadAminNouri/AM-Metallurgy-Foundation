@@ -1,0 +1,19 @@
+column,required,type,unit,description
+sample_id,yes,string,,Links to process-property row
+source_doi,no,string,,Paper DOI or user source ID
+microstructure_source,no,string,,SEM OM EBSD TEM XCT paper_text
+image_id,no,string,,Optional image identifier
+grain_size_um,no,float,um,Average grain size
+grain_morphology,no,string,,equiaxed columnar mixed cellular dendritic martensitic lamellar
+cellular_structure,no,string,,yes/no/unknown
+dendrite_arm_spacing_um,no,float,um,PDAS/SDAS when reported
+melt_pool_width_um,no,float,um,Melt pool width
+melt_pool_depth_um,no,float,um,Melt pool depth
+melt_pool_aspect_ratio,no,float,,width/depth or length/depth depending definition
+porosity_percent,no,float,%,Porosity
+pore_size_um,no,float,um,Average pore size
+pore_morphology,no,string,,spherical irregular LOF keyhole
+crack_presence,no,string,,yes/no/unknown
+precipitate_presence,no,string,,yes/no/unknown
+microstructure_notes,no,string,,Free text notes
+quality_score,no,string,,A B C D E
