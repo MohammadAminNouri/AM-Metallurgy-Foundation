@@ -1,0 +1,4 @@
+sample_id,alloy,AM_process,AM_subprocess,machine,laser_power_W,scan_speed_mm_s,hatch_spacing_um,layer_thickness_um,beam_diameter_um,specimen_orientation,heat_treatment,relative_density_percent,porosity_percent,grain_size_um,grain_morphology,texture_intensity_MRD,matrix_phase,secondary_phases,yield_strength_MPa,UTS_MPa,elongation_percent,hardness_HV,elastic_modulus_GPa
+demo_0001,IN625,DED,L-DED,Custom Lab System,368.68,20.6,750.73,634.08,1771.39,45deg,HIP,99.227,0.933,42.59,columnar,2.85,gamma,carbides/Laves possible,694.57,854.55,43.19,242.33,201.87
+demo_0002,Maraging Steel M300,PBF,L-PBF,Optomec LENS,392.88,792.05,97.13,20.0,70.5,horizontal,aged,92.5,7.543,16.32,cellular,0.8,martensite,Ni/Ti/Mo precipitates after aging,1068.9,1275.42,1.0,369.02,182.21
+demo_0003,Ti6Al4V ELI,PBF,L-PBF,EOS M400,150.14,1034.37,106.82,60.0,79.1,horizontal,HIP,97.375,2.605,13.88,mixed columnar-equiaxed,1.87,alpha/beta,alpha prime martensite possible,989.57,1161.19,15.66,298.71,116.71

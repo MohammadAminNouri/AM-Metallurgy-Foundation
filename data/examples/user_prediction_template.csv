@@ -1,0 +1,2 @@
+sample_id,alloy,AM_process,AM_subprocess,machine,laser_power_W,scan_speed_mm_s,hatch_spacing_um,layer_thickness_um,beam_diameter_um,specimen_orientation,heat_treatment,relative_density_percent,porosity_percent,grain_size_um,grain_morphology,texture_intensity_MRD,matrix_phase,secondary_phases
+demo_0001,IN625,DED,L-DED,Custom Lab System,368.68,20.6,750.73,634.08,1771.39,45deg,HIP,99.227,0.933,42.59,columnar,2.85,gamma,carbides/Laves possible

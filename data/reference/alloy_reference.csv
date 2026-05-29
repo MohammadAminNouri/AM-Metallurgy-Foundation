@@ -1,0 +1,13 @@
+alloy,family,base,density_kg_m3,melting_C,thermal_conductivity_W_mK,specific_heat_J_kgK,cte_1e6_K,matrix_phase,secondary_phases,micro,typical_process
+316L,stainless steel,Fe,7990,1385,16.2,500,16.0,austenite,delta ferrite/carbides possible,"cellular austenite, dislocation cells",L-PBF
+17-4PH,precipitation-hardening steel,Fe,7800,1420,16.0,460,10.4,martensite/ferrite,Cu-rich precipitates,martensitic matrix after aging,L-PBF
+Ti6Al4V,titanium alloy,Ti,4430,1660,7.1,560,8.6,alpha/beta,alpha prime martensite possible,"prior beta grains, alpha laths",L-PBF
+Ti6Al4V ELI,titanium alloy,Ti,4420,1650,7.0,526,8.5,alpha/beta,alpha prime martensite possible,fine alpha prime in as-built LPBF,L-PBF
+IN718,Ni superalloy,Ni,8190,1298,9.0,435,14.0,gamma,gamma prime/gamma double prime/Laves/delta,"columnar gamma grains, segregation, Laves possible",L-PBF
+IN625,Ni superalloy,Ni,8440,1320,9.2,429,12.8,gamma,carbides/Laves possible,cellular dendritic gamma,L-PBF
+AlSi10Mg,aluminum alloy,Al,2680,580,160.0,910,20.5,alpha-Al,Si network/Mg2Si,fine Si cellular network,L-PBF
+AlSi7Mg,aluminum alloy,Al,2670,570,140.0,890,21.5,alpha-Al,Si/Mg2Si,fine Al-Si eutectic/cellular network,L-PBF
+CoCrMo,cobalt alloy,Co,8400,1390,13.0,450,14.0,gamma/fcc cobalt,carbides,"columnar grains, carbide particles",L-PBF
+Maraging Steel M300,maraging steel,Fe,8100,1413,14.2,452,10.3,martensite,Ni/Ti/Mo precipitates after aging,"martensitic, precipitate strengthened after aging",L-PBF
+CuCrZr,copper alloy,Cu,8900,1085,320.0,380,17.0,Cu,Cr/Zr precipitates,Cu matrix with precipitation after aging,L-PBF
+H13 Tool Steel,tool steel,Fe,7800,1427,28.6,460,10.4,martensite,carbides,martensitic/carbide structure,L-PBF

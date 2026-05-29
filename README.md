@@ -1,66 +1,49 @@
 # OpenMetalAM-AI
 
-A traceable, literature-mined, metallurgy-aware machine-learning framework for metal additive manufacturing.
+A metallurgy-aware Streamlit and Python scaffold for metal additive manufacturing (AM) data, process–microstructure–phase–property modeling, and user-uploaded datasets.
 
-## Scope
-OpenMetalAM-AI links:
+## What is inside now
 
-`process parameters -> thermal/material descriptors -> defects -> microstructure -> crystallography/phases -> mechanical properties`
+- A stronger Streamlit app with pages for overview, data cockpit, alloy passport, benchmarking, prediction, microstructure/phases, data dictionary, and roadmap.
+- A bundled **literature-style demo dataset** with 240 rows across common metal AM alloys. This is for testing the pipeline and UI, not for certified scientific claims.
+- Alloy reference table with thermal/material descriptors.
+- Parameter dictionary explaining what every key column means.
+- User CSV templates for training and prediction.
+- Feature generation for line energy, volumetric energy density, beam power density, thermal diffusivity, density/porosity proxies.
+- Random Forest and Gradient Boosting training.
+- Nearest-case retrieval and out-of-domain warnings.
 
-The repository is designed for three use cases:
-
-1. Build a public literature-mined metal AM dataset.
-2. Predict mechanical properties from process/material/microstructure data.
-3. Let users upload their own CSV data and train/predict with the same pipeline.
-
-## Current integrated roadmap: V1 + V2 + V3
-
-### V1: Mechanical-property predictor
-- Literature-mined dataset schema
-- Unit conversion and standardization
-- Physics-aware feature engineering
-- Random Forest / XGBoost / Gradient Boosting baselines
-- SHAP explainability
-- Nearest-literature-case retrieval
-- Out-of-domain warnings
-- Streamlit app
-
-### V2: Microstructure, crystallography, and phases
-- Microstructure table
-- Crystallography table
-- Phase table
-- Qualitative and quantitative labels
-- Data-quality scoring
-- EBSD/XRD/SEM/XCT metadata support
-
-### V3: Microstructure-aware property prediction
-- Process -> microstructure models
-- Microstructure/phase/crystallography -> property models
-- Full process + structure + phase + property pipeline
-- User-upload CSV support
-- Model benchmark and data-quality dashboard
-
-## Important limitation
-This repo does not replace experiments or qualification. Predictions are based on public or user-provided data and should be treated as research guidance, not certified material-property values.
-
-## Quick start
+## Run locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run src/app/streamlit_app.py
 ```
 
-## User data
-Users can upload their own CSV in the app. Required columns depend on the task, but the safest template is in:
+## Streamlit Cloud main file
 
-`data/examples/user_input_template.csv`
+```text
+src/app/streamlit_app.py
+```
 
-## Data sources to integrate
-This scaffold supports integration of:
-- MechProNet-style mechanical-property datasets
-- MeltpoolNet melt-pool geometry/defect datasets
-- NIST AM-Bench data
-- User-provided CSV data
-- Literature-mined process/microstructure/property tables
+## Important limitation
 
-Actual redistribution of third-party datasets must follow their licenses.
+The bundled demo dataset is synthetic/literature-style starter data. Replace it with real curated literature data, MeltpoolNet/NIST/AM-Bench imports, or your own lab data before making scientific claims.
+
+## Minimum user CSV columns
+
+```text
+alloy, AM_subprocess, laser_power_W, scan_speed_mm_s, hatch_spacing_um, layer_thickness_um, heat_treatment
+```
+
+Better V3 columns:
+
+```text
+relative_density_percent, porosity_percent, grain_size_um, grain_morphology, texture_intensity_MRD, matrix_phase, secondary_phases
+```
+
+Targets for training:
+
+```text
+yield_strength_MPa, UTS_MPa, elongation_percent, hardness_HV, elastic_modulus_GPa
+```

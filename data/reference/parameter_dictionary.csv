@@ -1,0 +1,17 @@
+column,unit,meaning,group
+laser_power_W,W,Energy input from laser/electron/arc source. Too low may cause lack of fusion; too high may cause keyhole/evaporation.,process
+scan_speed_mm_s,mm/s,Beam travel speed. Higher speed usually lowers line energy and can increase lack-of-fusion risk.,process
+hatch_spacing_um,µm,Distance between adjacent scan tracks. Large hatch spacing can leave un-melted regions.,process
+layer_thickness_um,µm,Powder/deposition layer height. Thicker layers need higher energy for full melting.,process
+beam_diameter_um,µm,Approximate beam spot size. Used for power density and melt-pool stability proxies.,process
+relative_density_percent,%,"Measured density relative to theoretical density. A major property driver, especially fatigue/elongation.",structure
+porosity_percent,%,Void fraction. Higher porosity usually reduces ductility and fatigue performance.,structure
+grain_size_um,µm,Average grain size from OM/SEM/EBSD/TEM where reported.,microstructure
+grain_morphology,label,"Qualitative structure: equiaxed, columnar, cellular, dendritic, martensitic, mixed.",microstructure
+texture_intensity_MRD,MRD,"Texture strength from EBSD/XRD, multiple of random distribution.",crystallography
+matrix_phase,label,"Main phase: austenite, alpha/beta, gamma, alpha-Al, Cu, martensite, etc.",phase
+secondary_phases,label,"Precipitates or intermetallics: Laves, gamma prime, carbides, Si network, alpha prime, etc.",phase
+yield_strength_MPa,MPa,Stress where plastic deformation begins.,property
+UTS_MPa,MPa,Ultimate tensile strength.,property
+elongation_percent,%,Ductility/tensile elongation at break.,property
+hardness_HV,HV,Vickers hardness.,property

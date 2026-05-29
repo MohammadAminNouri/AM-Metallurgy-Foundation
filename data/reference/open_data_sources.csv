@@ -1,0 +1,5 @@
+source,use,link,license_note
+MeltpoolNet,melt pool geometry/mode/flaw classification,https://github.com/BaratiLab/MeltpoolNet,Check repository license before bundling datasets.
+NIST AM-Bench,"benchmark AM measurements, microstructure, single tracks/pads",https://www.nist.gov/ambench,Public benchmark portal; some datasets distributed via NIST/Data.gov.
+MechProNet-style literature data,mechanical properties from many MAM papers,paper/code availability varies,Use schema; verify dataset license before redistributing.
+User CSV data,private lab/company/thesis data,local upload,Never committed unless user chooses to add it.
